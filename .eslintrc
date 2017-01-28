@@ -1,1 +1,4 @@
-{ "parserOptions": { "sourceType": "module" } }
+{
+  "parserOptions": { "sourceType": "module" },
+  "extends": "C:/Users/kilia/.eslintrc"
+}
