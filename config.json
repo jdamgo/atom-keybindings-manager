@@ -14,7 +14,7 @@
       "selector": "atom-workspace",
       "keystrokes": "ctrl-alt-o",
       "command": "keybindings-manager:toggle",
-      "priority": "\\d+"
+      "priority": null
     }
   ]
 }
