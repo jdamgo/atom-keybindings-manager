@@ -1,0 +1,9 @@
+{
+  "name": "keybindings-manager",
+  "version": "0.0.0",
+
+  "main": "./lib/keybindings-manager",
+
+  "engines": { "atom": ">=1.0.0 <2.0.0" },
+  "dependencies": { }
+}

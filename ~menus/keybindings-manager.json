@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle keybindings-manager",
+        "command": "keybindings-manager:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "keybindings-manager",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "keybindings-manager:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
