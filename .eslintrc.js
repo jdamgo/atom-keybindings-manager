@@ -10,5 +10,7 @@ module.exports =
     "atom": false
   },
 
-  "rules": {}
+  "rules": {
+    "no-magic-numbers": "off",
+  }
 }
