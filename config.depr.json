@@ -1,0 +1,20 @@
+{
+  "package-name": [
+    {
+      "action": "(add|remove)",
+      "command": "[...]",
+      "keystrokes": "[...]",
+      "priority": "\\d+",
+      "selector": "[...]"
+    }
+  ],
+  "keybindings-manager": [
+    {
+      "action": "remove",
+      "selector": "atom-workspace",
+      "keystrokes": "ctrl-alt-o",
+      "command": "keybindings-manager:toggle",
+      "priority": null
+    }
+  ]
+}

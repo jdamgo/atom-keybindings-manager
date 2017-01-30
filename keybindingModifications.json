@@ -1,0 +1,18 @@
+[
+  {
+    "action": "remove",
+    "package": "keybindings-manager",
+    "selector": "atom-workspace",
+    "command": "keybindings-manager:toggle",
+    "keystrokes": "ctrl-alt-o",
+    "priority": null,
+  },
+  {
+    "action": "add",
+    "package": "keybindings-manager",
+    "selector": "atom-workspace",
+    "command": "keybindings-manager:toggle",
+    "keystrokes": "ctrl-alt-p",
+    "priority": null,
+  },
+]
