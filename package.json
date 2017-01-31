@@ -1,9 +1,11 @@
 {
   "name": "keybindings-manager",
-  "version": "0.0.0",
-
-  "main": "./lib/keybindings-manager",
-
-  "engines": { "atom": ">=1.0.0 <2.0.0" },
-  "dependencies": { }
+  "version": "0.0.1",
+  "main": "./lib/main",
+  "engines": {
+    "atom": "1.x"
+  },
+  "dependencies": {
+    "es6-error": "^4.0.1"
+  }
 }

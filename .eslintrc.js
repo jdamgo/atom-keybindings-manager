@@ -4,7 +4,7 @@ module.exports =
 
   "parserOptions": { "sourceType": "module" },
 
-  "env": { "node": true },
+  "env": { "node": true, "es6": true },
 
   "globals": {
     "atom": false
