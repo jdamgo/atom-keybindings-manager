@@ -1,4 +1,6 @@
-[
+"use babel"
+
+export default [
   {
     "action": "remove",
     "package": "archive-view",

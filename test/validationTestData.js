@@ -43,13 +43,27 @@ export default [
 
 
   {
-    action: "remove",
-    package: ["keybindings-manager"],
+    action: "change",
+    package: ["go-to-line"],
+  },
+  {
+    action: "change",
+    package: "go-to-line",
+    selector: ".platform-win32 .go-to-line atom-text-editor[mini]",
+    command: "core:cancel",
+    keystrokes: "ctrl-w",
+  },
+  {
+    action: "change",
+    package: ["go-to-line", "go-to-line"],
+    selector: ".platform-win32 .go-to-line atom-text-editor[mini]",
+    command: "core:cancel",
+    keystrokes: "ctrl-w",
   },
   {
     __valid: true,
     action: "change",
-    package: "go-to-line",
+    package: ["go-to-line", "go-to-line"],
     selector: ".platform-win32 .go-to-line atom-text-editor[mini]",
     command: "core:cancel",
     keystrokes: ["ctrl-w", "ctrl-alt-p"],
