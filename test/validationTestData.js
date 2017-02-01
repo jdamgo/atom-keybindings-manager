@@ -2,22 +2,22 @@
 
 export default [
   {},
-  { action: { _ERROR_: true } },
-  { action: "_ERROR_" },
+  { action: { _ACTION_: true } },
+  { action: "_ACTION_" },
   {
     action: "remove",
-    package: "_ERROR_",
+    package: "_PACKAGE_",
   },
   {
     action: "remove",
     package: "keybindings-manager",
-    selector: "_ERROR_~!@#$%^&*()_+",
+    selector: "_SELECTOR_~!@#$%^&*()_+",
   },
   {
     action: "remove",
     package: "keybindings-manager",
     selector: "atom-workspace",
-    command: "_ERROR_",
+    command: "_COMMAND_",
   },
   {
     package: "keybindings-manager",
@@ -30,10 +30,10 @@ export default [
     package: "keybindings-manager",
     selector: "atom-workspace",
     command: "keybindings-manager:toggle",
-    keystrokes: "_ERROR_",
+    keystrokes: "_KEY-STOKES_",
   },
   {
-    _valid: true,
+    __valid: true,
     action: "remove",
     package: "keybindings-manager",
     selector: "atom-workspace",
@@ -43,13 +43,27 @@ export default [
 
 
   {
-    action: "remove",
-    package: ["keybindings-manager"],
+    action: "change",
+    package: ["go-to-line"],
   },
   {
-    _valid: true,
     action: "change",
     package: "go-to-line",
+    selector: ".platform-win32 .go-to-line atom-text-editor[mini]",
+    command: "core:cancel",
+    keystrokes: "ctrl-w",
+  },
+  {
+    action: "change",
+    package: ["go-to-line", "go-to-line"],
+    selector: ".platform-win32 .go-to-line atom-text-editor[mini]",
+    command: "core:cancel",
+    keystrokes: "ctrl-w",
+  },
+  {
+    __valid: true,
+    action: "change",
+    package: ["go-to-line", "go-to-line"],
     selector: ".platform-win32 .go-to-line atom-text-editor[mini]",
     command: "core:cancel",
     keystrokes: ["ctrl-w", "ctrl-alt-p"],
