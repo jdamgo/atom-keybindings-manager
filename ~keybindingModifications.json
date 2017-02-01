@@ -5,7 +5,6 @@
     "selector": "atom-workspace",
     "command": "keybindings-manager:toggle",
     "keystrokes": "ctrl-alt-o",
-    "priority": null,
   },
   {
     "action": "add",
@@ -13,6 +12,5 @@
     "selector": "atom-workspace",
     "command": "keybindings-manager:toggle",
     "keystrokes": "ctrl-alt-p",
-    "priority": null,
   },
 ]
