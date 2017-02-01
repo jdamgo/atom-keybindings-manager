@@ -1,5 +1,9 @@
 # Current State
 
+### Issues
+
+  - 'change' will not work because eg. 'keystrokes' has multiple properties
+
 
 ### Next Steps
 
